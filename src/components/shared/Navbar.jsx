@@ -37,6 +37,11 @@ const Navbar = () => {
                   Cart
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/counter">
+                  Counter
+                </NavLink>
+              </li>
             </ul>
             <form className="d-flex" role="search">
               <input
